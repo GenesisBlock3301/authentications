@@ -16,7 +16,7 @@ class RegisterView(View):
             user = form.save(commit=False)
             user.save()
             return redirect('login-user')
-        return render(request, 'auth/register.html', {'form': form,'status': "Password must be consist of number and character and lenght greater than 8"})
+        return render(request, 'auth/register.html', {'form': form,'status': "Password not match or Password must be consist of number and character and lenght greater than 8"})
 
 
 class LoginView(View):

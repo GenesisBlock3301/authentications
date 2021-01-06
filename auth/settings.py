@@ -24,7 +24,7 @@ SECRET_KEY = 'q_q+6o#!9hs)h^tp@#3z990th6!r@%s1!l*dc4hh020wcueh+n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ["https://secret-temple-30774.herokuapp.com/"]
+ALLOWED_HOSTS = [".secret-temple-30774.herokuapp.com"]
 
 # Application definition
 
